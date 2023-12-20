@@ -1,0 +1,187 @@
+/* FONT FAMILY
+font-family: 'Fjalla One', sans-serif; //TITULO
+font-family: 'Wix Madefor Display', sans-serif; //OTROS 
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+}
+body{
+    background-image: url(images/fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navegacion{
+    background-color: #240254;    
+    padding: 2em;
+    display: flex;
+    align-items: baseline;
+}
+.nav_item_nav{
+    width: 85%;
+}
+.nav_item_wats{
+    width: 15%;
+    text-align: center;
+}
+
+nav a {
+        text-decoration: none;
+        padding: 0.8em;
+        font-size: 1em;
+        color: rgb(246, 250, 245);        
+        font-family: 'Wix Madefor Display', sans-serif;
+        padding-left: 1.2em;
+}
+.nav_item_wats input{
+    color: white;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    background-color: #00be00;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Estilos de titulo, eslogan y formulario */
+.cont_slogan_titulo h1{
+    margin-top: 0.3em;
+    font-size: 4em;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    color: #f92e06;   
+}
+
+.slogan1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+    padding-left: 0.3em;
+}
+.slogan2{
+    font-size: 4em;
+    margin-top: 1em;    
+    color: #282827;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+.cont_slogan{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    display: flex;
+}
+.cont_slogan_titulo, .cont_formulario{
+    width: 50%;
+}
+
+.formulario{
+    width: 80%;
+    height: 30em;
+    background-color: rgba(251, 75, 11, 0.5);
+    border-radius: 3%;
+    margin-left: auto;
+    margin-top: 1.6em;    
+}
+.formulario h2{
+    color:rgb(170, 193, 193);
+    text-align: center;
+    padding-top: 10em;
+}
+
+
+/* seccion tarjetas planes */
+.tarjetas_planes{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 90%;   
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.tarjeta{
+    width: 28%;
+    height: 30em;
+    border-radius: 3%;
+    background-color: #240254;    
+}
+
+.tarjeta:hover{
+    background-color: #190239;
+}
+
+.tarjeta_content{
+    width: 90%;
+    height: 93%;
+    margin: 0 auto;
+    border-radius: 3%;
+    margin: 1em;
+}
+
+.tarjeta_content h2{
+    padding-top: 1em;
+    font-size: 1.7em;
+    color: white;
+    
+}
+
+.tarjeta_content li{
+    
+    font-size: 1.4em;
+    color: white;
+    padding-top: 0.5em;
+    text-align: left;
+    margin-left: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;       
+}
+.tarjeta_content ul{
+    padding-left: 0;
+}
+.lista{
+    padding: 1.3em 1.5em 0.5em 1.5em;
+}
+
+/* SECCION ASESORIAS */
+.asesoria{
+    width: 100%;
+    height: 30em;
+    background-color: rgb(32, 33, 33);
+    margin-bottom: 10em;
+}
+.cont_asesoria{
+    width: 90%;    
+    margin: 0 auto;    
+    color:white;
+    text-align: center;
+}
+
+.cont_asesoria h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3em;
+    padding-top: 2em;    
+}
+
+.cont_asesoria img{
+    width: 10%;
+}
+
+.watsap, .llamadas{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    
+}
+.watsap h3, .llamadas h3{
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-left: 0.8em;
+    
+}
+
+
+
+
